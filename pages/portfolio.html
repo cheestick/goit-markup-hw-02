@@ -17,7 +17,7 @@
         >
         <ul>
           <li><a href="../index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
+          <li><a class="current-page" href="./portfolio.html">Портфолио</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
@@ -33,7 +33,11 @@
       <section class="portfolio">
         <!-- filtering will be as radiobuttons -->
         <ul class="filter-list">
-          <li><button type="button" name="all">Все</button></li>
+          <li>
+            <button class="selected-filter" type="button" name="all">
+              Все
+            </button>
+          </li>
           <li><button type="button" name="sites">Веб-сайты</button></li>
           <li><button type="button" name="app">Приложения</button></li>
           <li><button type="button" name="design">Дизайн</button></li>
