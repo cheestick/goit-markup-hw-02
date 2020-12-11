@@ -6,7 +6,7 @@
   --section-bg-color: #f5f4fa;
   --footer-bg-color: #212121;
   --blank-bg-color: #2f303a;
-  --border-separator-color: ;
+  --border-separator-color: #ececec;
   --interactive-element-color: #2196f3;
   --button-color: #2196f3;
   --current-page-color: #2196f3;
@@ -107,11 +107,35 @@ body {
 .pages-list .link:focus,
 .contacts-list .link:hover,
 .contacts-list .link:focus {
-  color: var(--current-page-color);
+  color: var(--interactive-element-color);
 }
 
 .link.current-page {
-  color: var(--current-page-color);
+  color: var(--interactive-element-color);
 }
 
 /* hero section */
+.hero {
+  background-color: var(--blank-bg-color);
+}
+
+.hero > h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lightondark-text-color);
+}
+
+.hero > .order {
+  background-color: var(--button-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.06em;
+  color: var(--lightondark-text-color);
+}
+
+/* features */
