@@ -20,6 +20,7 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
+/* general adaptation to the design (common properties)*/
 body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
@@ -47,6 +48,7 @@ footer {
   text-decoration: none;
 }
 
+/* logotype */
 .logo,
 .logo:visited {
   font-family: var(--logo-font);
@@ -66,6 +68,8 @@ footer {
 
 .logo.link-reset {
 }
+
+/* navigation */
 
 footer > address {
   font-style: normal;
