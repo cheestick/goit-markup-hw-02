@@ -10,6 +10,7 @@
   --interactive-element-color: #2196f3;
   --button-color: #2196f3;
   --current-page-color: #2196f3;
+  --button-filter-color: #f5f4fa;
 
   --logo-font-color: #2196f3;
   --logo-font-black: #000000;
@@ -128,7 +129,7 @@ body {
   color: var(--lightondark-text-color);
 }
 
-.hero > .order {
+.hero > .button-order {
   background-color: var(--button-color);
   font-weight: 700;
   font-size: 16px;
@@ -168,4 +169,44 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+}
+
+/* PORTFOLIO page styles */
+/* filters  */
+.filter-list .button-filter {
+  background-color: var(--button-filter-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--nav-color);
+}
+.button-filter.selected-filter {
+  background-color: var(--interactive-element-color);
+  color: var(--lightondark-text-color);
+}
+
+/* cards */
+.card .link,
+.card .link:visited {
+  color: inherit;
+}
+
+.card .card-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--main-heading-color);
+}
+
+.card .card-type {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* button cursor */
+.button-cursor:hover,
+.button-cursor:focus {
+  cursor: pointer;
 }
