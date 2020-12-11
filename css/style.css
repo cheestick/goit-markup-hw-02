@@ -147,8 +147,9 @@ body {
   color: var(--main-heading-color);
 }
 
-/* what do we do (directions) */
-.directions-heading {
+/* what do we do (directions) and team common styles */
+.directions-heading,
+.team-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -156,3 +157,15 @@ body {
 }
 
 /* our team */
+.teammates-list .teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--main-heading-color);
+}
+
+.teammates-list .teammate-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
