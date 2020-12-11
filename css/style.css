@@ -14,7 +14,7 @@
   --logo-font-color: #2196f3;
   --logo-font-black: #000000;
   --logo-font-white: #ffffff;
-  --hero-text-color: #ffffff;
+  --lightondark-text-color: #ffffff;
   --main-heading-color: #212121;
   --main-text-color: #757575;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
@@ -31,7 +31,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-footer {
+.page-footer {
   background-color: var(--footer-bg-color);
 }
 
@@ -66,11 +66,18 @@ footer {
   color: var(--logo-font-white);
 }
 
-.logo.link-reset {
+/* footer address */
+.page-footer > address {
+  font-style: normal;
 }
 
-/* navigation */
+.address > .postal {
+  color: var(--lightondark-text-color);
+}
 
-footer > address {
-  font-style: normal;
+.address .tel,
+.address .tel:visited,
+.address .email,
+.address .email:visited {
+  color: var(--footer-contacts-color);
 }
