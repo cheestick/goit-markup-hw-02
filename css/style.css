@@ -29,10 +29,19 @@ body {
   letter-spacing: 0.03em;
 }
 
+footer {
+  background-color: var(--footer-bg-color);
+}
+
 .current-page {
   color: var(--current-page-color);
 }
+
 .list-reset {
   list-style-type: none;
   padding: 0;
+}
+
+.link-reset {
+  text-decoration: none;
 }
