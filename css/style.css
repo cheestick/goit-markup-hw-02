@@ -1,7 +1,11 @@
 :root {
+  --common-font: Roboto, sans-serif;
+  --logo-font: Raleway, sans-serif;
   --main-bg-color: #ffffff;
   --section-bg-color: #f5f4fa;
   --footer-bg-color: #212121;
+  --blank-bg-color: #2f303a;
+  --border-separator-color: ;
   --interactive-element-color: #2196f3;
   --button-color: #2196f3;
 
@@ -17,7 +21,7 @@
 body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--common-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
