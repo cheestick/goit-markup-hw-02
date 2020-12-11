@@ -147,4 +147,12 @@ body {
   color: var(--main-heading-color);
 }
 
-/* what do we do */
+/* what do we do (directions) */
+.directions-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--main-heading-color);
+}
+
+/* our team */
