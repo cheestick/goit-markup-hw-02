@@ -8,6 +8,7 @@
   --border-separator-color: ;
   --interactive-element-color: #2196f3;
   --button-color: #2196f3;
+  --current-page-color: #2196f3;
 
   --logo-font-color: #2196f3;
   --logo-font-black: #000000;
@@ -26,4 +27,12 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.current-page {
+  color: var(--current-page-color);
+}
+.list-reset {
+  list-style-type: none;
+  padding: 0;
 }
