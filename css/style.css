@@ -16,6 +16,7 @@
   --logo-font-white: #ffffff;
   --lightondark-text-color: #ffffff;
   --main-heading-color: #212121;
+  --nav-color: #212121;
   --main-text-color: #757575;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
@@ -81,3 +82,36 @@ body {
 .address .email:visited {
   color: var(--footer-contacts-color);
 }
+
+/* navigation */
+.navigation .link,
+.navigation .link:visited,
+.contacts-link .link,
+.contacts-link .link:visited {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.pages-list .link {
+  color: var(--nav-color);
+}
+
+.contacts-list .link {
+  color: var(--main-text-color);
+}
+
+.pages-list .link:hover,
+.pages-list .link:focus,
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--current-page-color);
+}
+
+.link.current-page {
+  color: var(--current-page-color);
+}
+
+/* hero section */
