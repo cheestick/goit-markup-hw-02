@@ -11,6 +11,7 @@
   --button-color: #2196f3;
   --current-page-color: #2196f3;
   --button-filter-color: #f5f4fa;
+  --team-section-color: #f5f4fa;
 
   --logo-font-color: #2196f3;
   --logo-font-black: #000000;
@@ -158,6 +159,9 @@ body {
 }
 
 /* our team */
+.team {
+  background-color: var(--team-section-color);
+}
 .teammates-list .teammate-name {
   font-weight: 500;
   font-size: 16px;
